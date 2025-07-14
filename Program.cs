@@ -1,4 +1,4 @@
-﻿// (newer dotnet versions include  some using statements automatically)
+﻿// (newer dotnet versions include some using statements automatically)
 using System;
 using System.Net.Http;
 using System.Text.RegularExpressions;
@@ -11,7 +11,8 @@ class Program
 {
     static async Task Main()
     {
-        //string startUrl = "https://httpbin.org/links/10/0";
+        // alternative websites you can test:
+        // string startUrl = "https://httpbin.org/links/10/0";
         // string startUrl = "https://p.lodz.pl";
         string startUrl = "https://www.example.com";
         int maxDepth = 2;
